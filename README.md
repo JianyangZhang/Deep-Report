@@ -1,13 +1,11 @@
 #sprint boot project initialization<br/>
 spring init -d=web,jdbc,mysql -t=gradle-project --build=gradle -g=com.deep.report -a=deep-report --package-name=com.deep.report -name=deep-report -x<br/>
-
-#semantic ui<br/>
+\#semantic ui<br/>
 npm install --save-dev semantic-ui<br/>
 cd semantic/<br/>
 gulp build<br/>
-
-#react redux<br/>
-#create package file<br/>
+\#react redux<br/>
+\#create package file<br/>
 npm init -y<br/>
 
 #install dependencies<br/>
