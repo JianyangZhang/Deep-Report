@@ -5,7 +5,7 @@ npm install --save-dev semantic-ui<br/>
 cd semantic/<br/>
 gulp build<br/>
 \#react redux<br/>
-\#create package file<br/>
+\#create package.json<br/>
 npm init -y<br/>
 
 #install dependencies<br/>
