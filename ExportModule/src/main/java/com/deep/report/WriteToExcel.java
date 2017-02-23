@@ -13,8 +13,7 @@ public class WriteToExcel {
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		XSSFWorkbook workbook = new XSSFWorkbook();
 		XSSFSheet sheet = workbook.createSheet("Main Sheet");
-		XSSFRow row = sheet.createRow(0);
-		XSSFCell cell = row.createCell(0);
+		XSSFCell cell = sheet.createRow(0).createCell(0);
 		cell.setCellValue("my first cell is created");
 		
 		sheet.autoSizeColumn(0);
