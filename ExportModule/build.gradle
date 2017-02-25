@@ -19,13 +19,18 @@ repositories {
 dependencies {
     // The production code uses Guava
     compile 'com.google.guava:guava:20.0'
-    
-    // poi
-    runtime 'org.codehaus.groovy:groovy-all:2.4.7'
-    runtime 'org.apache.poi:poi:3.14'
-    runtime 'org.apache.poi:poi-ooxml:3.14'
 
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
+ 
+    // apache-poi 
+    runtime 'org.codehaus.groovy:groovy-all:2.4.7'
+    runtime 'org.apache.poi:poi:3.14'
+    runtime 'org.apache.poi:poi-ooxml:3.14'
+    
+    // Json
+    compile group: 'org.json', name: 'json', version: '20160810'
+    
+    // jackson
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.0.1'  
 }
-
