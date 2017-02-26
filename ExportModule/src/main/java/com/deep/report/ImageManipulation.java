@@ -11,7 +11,7 @@ import org.apache.commons.codec.binary.Base64;
 // 测试用
 public class ImageManipulation {
 	public static void main(String[] args) {
-		manipulate("./CPUUtilization.png", "./CPUUtilization_converted.png");
+		manipulate("./temp/2.png", "./temp/2_converted.png");
 	}
 	public static void manipulate(String path_in, String path_out) {
 		// path_in = "./testfiles/SimulatedData.png"
